@@ -1,0 +1,25 @@
+.aaaa{
+    color: blue;
+}
+.card {
+    width: 21rem;
+    /* width: 100% !important; */
+  }
+  .row-2{
+    display: flex;
+    background-color: rgb(3, 53, 53);
+    width:100%;
+    height: 25rem;
+      
+  }
+  .row-incol10{
+    background-color: rgb(247, 111, 33);
+    width: 99.5%;
+    height: 100%;
+  }
+  .col1{
+    flex:content !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  

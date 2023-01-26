@@ -1,0 +1,40 @@
+body-bubble {
+    background: #6c79d0;
+    color: rgb(255, 255, 255);
+    font: 100% Lato, Arial, Sans Serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation:animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    width: 100px;
+    height: 100px;
+    color: white;
+    left: -5%;
+    top: 5%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+@keyframes animationBubble {
+    10% {
+        top: 25%;
+    }
+}

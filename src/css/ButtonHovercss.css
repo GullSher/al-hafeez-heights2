@@ -1,0 +1,109 @@
+#span1{
+    /* font-size: 0.05em; */
+    /* letter-spacing: 0.05em; */
+    
+    }
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900&display=swap');
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+    }
+    body-hover
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+        min-height: 5vh;
+        }
+    
+    #a-hover
+    {
+    position: relative;
+    background: rgb(181, 93, 219);
+    /* font-size: 2.5em; */
+    color: white;
+    /* width: 5.2em; */
+    /* height: 1.5em; */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    /* transition:cubic-bezier(0.6, -0.28, 0.735, 0.045) */
+    box-shadow: 0 20px 25px rgb(181, 93, 219);
+    overflow: hidden;
+    }
+   #a-hover:hover
+    {
+    width: 200px;
+    transition-delay: 0.5s;
+    /* content: ''; */
+    /* position: absolute; */
+    /* width: 5.2em; */
+    /* height: 1.5em;
+    border-top: 3px solid rgb(34, 59, 201);
+    border-bottom: 3px solid rgb(34, 59, 201);
+    border-right: 3px solid rgb(34, 59, 201);
+    border-left: 3px solid rgb(34, 59, 201);
+    transform: rotate(0deg); */
+       
+    }
+    
+    #a-hover::before
+    {
+    content: '';
+    position: absolute;
+    right: 25px;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid rgb(255, 255, 255);
+    /* border-bottom: 3px solid rgb(34, 193, 201); */
+    border-right: 3px solid rgb(255, 255, 255);
+    /* border-left: 3px solid rgb(34, 193, 201); */
+    transform: rotate(45deg);
+    transition: 0.5s;
+    }
+  #a-hover:hover::before
+    {
+      transform: rotate(45deg) translate(50px, -50px);
+    }
+    #a-hover::after
+    {
+    content: '';
+    position: absolute;
+    left: -50px;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid rgb(255, 255, 255);
+    /* border-bottom: 3px solid rgb(34, 193, 201); */
+    border-right: 3px solid rgb(255, 255, 255);
+    /* border-left: 3px solid rgb(34, 193, 201); */
+    transform: rotate(45deg) translate(-50px, 50px);
+    transition: 0.5s;
+    }
+    #a-hover:hover::after
+    {
+        transform: rotate(45deg) translate(50px, -50px);
+        transition-delay: 0.5s;
+    }
+    
+    #a-hover span
+    {
+    visibility: hidden;
+    opacity: 0;
+    white-space: nowrap;
+    transition: 0.5s;
+    transform: translateX(-10px);
+    }
+    #a-hover:hover span{
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0.75s;
+        transform: translateX(10px);
+    }
+    
