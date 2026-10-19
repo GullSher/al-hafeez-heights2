@@ -1,54 +1,68 @@
-(```markdown
-<div align="center">
+(# Al Hafeez Heights 2
 
-# 🏢 Al-Hafeez Heights
+[![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](#)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#)
 
-**A Modern, Responsive Real Estate & Commercial Property Web Platform**
-
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)]()
-
-[Explore Demo](#) • [Report Bug](#) • [Request Feature](#)
-
-</div>
+A modern, high-performance web platform built to showcase, manage, and facilitate real estate listings, unit allocations, and inquiry management for **Al Hafeez Heights**. Engineered for optimal speed, responsive UX, and scalable property browsing.
 
 ---
 
-## 📌 Overview
+## 📌 Table of Contents
 
-**Al-Hafeez Heights** is a dynamic web application built to showcase corporate offices, retail spaces, and real estate offerings with a seamless user experience. Designed with speed, modern aesthetics, and lead conversion in mind, this project bridges the gap between commercial real estate seekers and property managers.
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Setup](#environment-setup)
+  - [Running the App](#running-the-app)
+- [Project Structure](#-project-structure)
+- [Author & Contact](#-author--contact)
+- [License](#-license)
+
+---
+
+## 🏢 Overview
+
+**Al Hafeez Heights 2** is a streamlined real estate and commercial property application. It bridges the gap between property seekers and management by delivering real-time availability, interactive floor plans, scheduling for tours, and smooth client-to-agent lead generation pipelines.
 
 ---
 
 ## ✨ Key Features
 
-- 🏢 **Property & Office Showcase:** Filterable, interactive listings for commercial shops, office spaces, and residential suites.
-- 📱 **Mobile-First & Responsive:** Pixel-perfect layout adaptable to desktop, tablet, and mobile displays.
-- ⚡ **High-Performance Architecture:** Lightweight, modular JavaScript code ensuring ultra-fast load times and SEO-friendly structures.
-- 📩 **Lead Generation & Inquiry Forms:** Direct contact and booking inquiry pipelines for prospective tenants and investors.
-- 🗺️ **Location & Floor Plans:** Integrated visual guides for building layout, floor specifications, and amenities.
+- **Dynamic Property Catalog:** Interactive exploration of commercial shops, corporate offices, and luxury suites.
+- **Advanced Filtering & Search:** Rapid filtering by floor, square footage, pricing, and availability.
+- **Lead Capture & Inquiry Routing:** Instant lead collection connected with direct notification services.
+- **Responsive Architecture:** Fully optimized cross-platform performance across mobile, tablet, and desktop interfaces.
+- **Modular Codebase:** Built with modern JavaScript standards for high maintainability and rapid feature expansion.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Language:** JavaScript (ES6+)
-- **Styling:** Modern CSS3 / Flexbox / Grid
-- **Runtime / Backend (if applicable):** Node.js / Express
-- **Tooling:** Git, npm/yarn
+| Layer | Technology |
+| :--- | :--- |
+| **Language** | Modern JavaScript (ES6+) |
+| **Frontend** | HTML5, CSS3, JavaScript (SPA / Modern UI Components) |
+| **Backend / Server** | Node.js / Express.js (REST APIs) |
+| **Styling** | Modern CSS / Utility Frameworks |
+| **Version Control** | Git & GitHub |
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these instructions to set up the project locally on your machine.
+Follow these steps to set up the project locally.
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Ensure you have the following installed on your machine:
+
 - [Node.js](https://nodejs.org/) (v16.x or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Git](https://git-scm.com/)
 
 ### Installation
@@ -64,22 +78,29 @@ Ensure you have the following installed:
    npm install
    ```
 
-3. **Configure Environment Variables (Optional):**
-   ```bash
-   cp .env.example .env
-   ```
+### Environment Setup
 
-4. **Run the development server:**
-   ```bash
-   npm start
-   # or
-   npm run dev
-   ```
+Create a `.env` file in the root directory:
 
-5. **Open in your browser:**
-   ```
-   http://localhost:3000
-   ```
+```env
+PORT=5000
+NODE_ENV=development
+```
+
+### Running the App
+
+- **Development mode:**
+  ```bash
+  npm run dev
+  ```
+
+- **Production build & start:**
+  ```bash
+  npm run build
+  npm start
+  ```
+
+Open your browser and navigate to `http://localhost:5000`.
 
 ---
 
@@ -87,30 +108,34 @@ Ensure you have the following installed:
 
 ```text
 al-hafeez-heights2/
-├── assets/          # Static assets (images, icons, styles)
-├── src/             # Core application code / components
-│   ├── components/  # Reusable UI components
-│   ├── pages/       # Application views
-│   └── utils/       # Helper functions and business logic
-├── .gitignore
-├── package.json
-└── README.md
+├── public/              # Static assets (images, icons, fonts)
+├── src/
+│   ├── assets/          # Project media and styles
+│   ├── components/      # Reusable UI components
+│   ├── controllers/     # API request handlers (if fullstack)
+│   ├── routes/          # Application routing endpoints
+│   ├── services/        # Business logic & helper utilities
+│   └── app.js           # Application entry point
+├── .env.example         # Template for environment variables
+├── package.json         # Project manifests and scripts
+└── README.md            # Documentation
 ```
 
 ---
 
 ## 👨‍💻 Author & Contact
 
-Developed with passion by **Gull Sher**.
+**Gull Sher**  
+*Full Stack Developer*
 
-- **Role:** Full Stack Developer
-- **Portfolio / Website:** [codingbelt.com](https://codingbelt.com)
-- **WhatsApp:** [+92 316 1457292](https://wa.me/923161457292)
-- **GitHub:** [@your-github-username](https://github.com/)
+- **Website:** [codingbelt.com](https://codingbelt.com)  
+- **WhatsApp:** [+92 316 1457292](https://wa.me/923161457292)  
+- **Portfolio / Services:** Web Application Development, API Integration, Custom Solutions
+
+Have a question, feedback, or a business inquiry? Feel free to reach out via WhatsApp or visit the website.
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
-```).
+This project is open-source and available under the [MIT License](LICENSE).).
