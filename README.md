@@ -1,74 +1,86 @@
 (```markdown
 <div align="center">
 
-# 🏢 Al-Hafeez Heights 2
+  <h1>🏢 Al-Hafeez Heights II</h1>
+  <p><strong>A modern, responsive real estate & commercial property management web application.</strong></p>
 
-**A modern, high-performance real estate and property management web platform.**
+  <p>
+    <a href="https://github.com/your-username/al-hafeez-heights2/stargazers"><img src="https://img.shields.io/github/stars/your-username/al-hafeez-heights2?style=for-the-badge&color=007acc" alt="Stars"></a>
+    <a href="https://github.com/your-username/al-hafeez-heights2/network/members"><img src="https://img.shields.io/github/forks/your-username/al-hafeez-heights2?style=for-the-badge&color=007acc" alt="Forks"></a>
+    <a href="https://github.com/your-username/al-hafeez-heights2/issues"><img src="https://img.shields.io/github/issues/your-username/al-hafeez-heights2?style=for-the-badge&color=007acc" alt="Issues"></a>
+    <a href="https://github.com/your-username/al-hafeez-heights2/blob/main/LICENSE"><img src="https://img.shields.io/github/license/your-username/al-hafeez-heights2?style=for-the-badge&color=007acc" alt="License"></a>
+  </p>
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Status](https://img.shields.io/badge/Status-Active_Development-success?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#license)
-
-[Explore Features](#-key-features) • [Getting Started](#-getting-started) • [Contact](#-contact--connect)
+  <!-- Quick Links -->
+  <p>
+    <a href="#overview">Overview</a> •
+    <a href="#key-features">Key Features</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#getting-started">Getting Started</a> •
+    <a href="#contact">Contact</a>
+  </p>
+</div>
 
 ---
 
-</div>
+## 📌 Overview
 
-## 📌 Project Overview
+**Al-Hafeez Heights II** is a full-featured web solution engineered for commercial complexes, business centers, and real estate properties. Built using modern JavaScript, it delivers an intuitive user experience for browsing retail spaces, executive offices, property listings, and handling client inquiries in real time.
 
-**Al-Hafeez Heights 2** is a streamlined, client-focused web application built to showcase commercial and residential real estate spaces. Designed with an emphasis on lightning-fast performance, elegant UI/UX, and intuitive navigation, this platform bridges the gap between prospective tenants/buyers and property administrators.
+---
 
-Whether browsing luxury office suites, scheduling on-site visits, or submitting direct booking inquiries, the platform delivers an optimized digital real estate experience across all screen sizes.
+## 🚀 Key Features
+
+- **Dynamic Property Showcase:** High-resolution galleries, interactive floor plans, and comprehensive amenity listings.
+- **Direct Inquiry & Booking Engine:** Streamlined booking/contact workflows for prospective tenants and investors.
+- **Fully Responsive Architecture:** Optimized for mobile, tablet, and ultra-wide desktop displays.
+- **Performant & SEO Optimized:** Fast load times, semantic HTML5, and automated meta-tag configurations.
+- **Modular Component Design:** Scalable codebase built for straightforward feature expansion and third-party API integration.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Core Language:** JavaScript (ES6+)
-- **Frontend / UI:** Modern component architecture, HTML5, CSS3 / Responsive Layouts
-- **Backend / API Integration:** Node.js / RESTful Services
-- **Tooling & Package Management:** NPM, Webpack / Vite (or equivalent bundler)
+<div align="left">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
 
 ---
 
-## ✨ Key Features
+## 📁 Project Structure
 
-- **🏢 Property Catalog & Unit Showcase:** High-resolution listing displays with detailed floor plans, pricing structures, and amenity breakdowns.
-- **📱 Fully Responsive Design:** Mobile-first user interface guaranteeing seamless accessibility on smartphones, tablets, and desktop workstations.
-- **⚡ Instant Inquiries & Lead Generation:** Integrated contact and booking inquiry system allowing clients to connect directly with leasing managers.
-- **🔍 Dynamic Filtering & Search:** Rapid filtering engine enabling users to find units based on size, category, floor level, and availability.
-- **🚀 SEO & Performance Optimized:** Built using lightweight JavaScript assets and optimized media loading for sub-second page views.
-
----
-
-## 📂 Project Structure
-
-```bash
+```text
 al-hafeez-heights2/
-├── public/              # Static assets (images, icons, fonts)
+├── public/              # Static assets (images, icons, etc.)
 ├── src/
-│   ├── assets/          # Project stylesheets and media
-│   ├── components/      # Modular, reusable UI components
-│   ├── data/            # Local data models / mock listings
-│   ├── pages/           # View layouts & route components
-│   └── utils/           # Helper functions & API utilities
-├── .gitignore
-├── package.json
-└── README.md
+│   ├── assets/          # Stylesheets and visual media
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Application views / routes
+│   └── utils/           # Helper functions & API configs
+├── .env.example         # Example environment variables
+├── package.json         # Project metadata and dependencies
+└── README.md            # Project documentation
 ```
 
 ---
 
-## 🚀 Getting Started
+## ⚡ Getting Started
 
-Follow these instructions to set up the project locally on your machine.
+Follow these steps to set up and run the project locally on your machine.
 
 ### Prerequisites
 
-- **Node.js** (v16.x or higher recommended)
-- **NPM** or **Yarn**
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16.x or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
 
 ### Installation
 
@@ -78,69 +90,65 @@ Follow these instructions to set up the project locally on your machine.
    cd al-hafeez-heights2
    ```
 
-2. **Install project dependencies:**
+2. **Install dependencies:**
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-3. **Configure Environment Variables (if required):**
+3. **Configure Environment Variables:**
+   Duplicate `.env.example` to create your local `.env` file:
    ```bash
    cp .env.example .env
    ```
-   *Update your `.env` file with any relevant API keys or backend endpoints.*
+   *Update the variables with your configuration values as needed.*
 
-4. **Run the local development server:**
+4. **Run the development server:**
    ```bash
-   npm start
-   # or
    npm run dev
+   # or
+   npm start
    ```
 
-5. **Open in Browser:**
-   Navigate to `http://localhost:3000` (or the port specified in your terminal).
-
----
-
-## 📈 Roadmap
-
-- [ ] Interactive 3D virtual floor map integration
-- [ ] Automated WhatsApp lead notifications for site administrators
-- [ ] Multi-currency price conversion for overseas investors
-- [ ] Tenant portal for maintenance requests and billing updates
+5. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](../../issues) if you want to contribute.
+Contributions are welcome! Please feel free to fork the repository, create a feature branch, and submit a pull request:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the Project (`git checkout -b feature/AmazingFeature`)
+2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Open a Pull Request
 
 ---
 
-## 📄 License
+## 📬 Contact & Developer Info
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+If you have questions, feedback, or would like to collaborate on custom web development projects, get in touch:
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>Gull Sher</strong><br />
+      <em>Full Stack Developer</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      🌐 <strong>Website:</strong> <a href="https://codingbelt.com" target="_blank">codingbelt.com</a><br />
+      💬 <strong>WhatsApp:</strong> <a href="https://wa.me/923161457292" target="_blank">+92 316 1457292</a>
+    </td>
+  </tr>
+</table>
 
 ---
-
-## 👨‍💻 Contact & Connect
-
-Need a custom web solution, full-stack application, or high-converting platform? Let's talk!
-
-**Gull Sher**  
-*Full Stack Developer*
-
-- 🌐 **Website:** [codingbelt.com](https://codingbelt.com)
-- 💬 **WhatsApp:** [+92 316 1457292](https://wa.me/923161457292)
-- 💼 **Available for:** Freelance contracts, custom software development, & technical consultations.
 
 <div align="center">
-  <sub>Engineered with precision by Gull Sher.</sub>
+  <p>Made with ❤️ by Gull Sher. All rights reserved.</p>
 </div>
 ```).
