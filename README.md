@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#)
 
-A modern, high-performance web platform built to showcase, manage, and facilitate real estate listings, unit allocations, and inquiry management for **Al Hafeez Heights**. Engineered for optimal speed, responsive UX, and scalable property browsing.
+A modern, high-performance web platform built to showcase, manage, and facilitate real estate listings, unit allocations, and inquiry management for **Real-Estate-Property-Management-Suite**. Engineered for optimal speed, responsive UX, and scalable property browsing.
 
 ---
 
@@ -27,7 +27,7 @@ A modern, high-performance web platform built to showcase, manage, and facilitat
 
 ## 🏢 Overview
 
-**Al Hafeez Heights 2** is a streamlined real estate and commercial property application. It bridges the gap between property seekers and management by delivering real-time availability, interactive floor plans, scheduling for tours, and smooth client-to-agent lead generation pipelines.
+**Real-Estate-Property-Management-Suite** is a streamlined real estate and commercial property application. It bridges the gap between property seekers and management by delivering real-time availability, interactive floor plans, scheduling for tours, and smooth client-to-agent lead generation pipelines.
 
 ---
 
@@ -69,8 +69,8 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/al-hafeez-heights2.git
-   cd al-hafeez-heights2
+   git clone https://github.com/your-username/Real-Estate-Property-Management-Suite.git
+   cd Real-Estate-Property-Management-Suite
    ```
 
 2. **Install dependencies:**
@@ -107,7 +107,7 @@ Open your browser and navigate to `http://localhost:5000`.
 ## 📁 Project Structure
 
 ```text
-al-hafeez-heights2/
+Real-Estate-Property-Management-Suite
 ├── public/              # Static assets (images, icons, fonts)
 ├── src/
 │   ├── assets/          # Project media and styles
